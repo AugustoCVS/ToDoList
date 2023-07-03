@@ -13,7 +13,7 @@
     --gray-600: #1a1a1a;
     --gray-700: #0D0D0D;
 
-    --red: #e25858;
+    --danger: #e25858;
 }
 
 
@@ -21,16 +21,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
-    background-color: var(--gray-900);
-    color: var(--gray-300);
+    min-height: 100vh;
+    background-color: var(--gray-600);
+    color: var(--gray-100);
     -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+button{
+    cursor: pointer;
 }
